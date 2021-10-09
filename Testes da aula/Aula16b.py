@@ -1,0 +1,10 @@
+lanche = ('Hambúrguer', 'Suco', 'Pizza', 'Pudim')
+a = (0, 1, 2, 3)
+b = (4, 5, 6)
+c = (a + b)
+print(sorted(lanche))# ordem alfábetica
+print(c)
+print(len(c))
+print(c.count(5))
+print(c.index(4))
+del(lanche)

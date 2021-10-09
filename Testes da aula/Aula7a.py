@@ -1,0 +1,10 @@
+n1 = int(input('Escreva um valor '))
+n2 = int(input('Escrava outro valor '))
+
+print('A soma vale {} '.format(n1 + n2), end='> ')
+print('A subtração vale {} '.format(n1 - n2), end='> ')
+print('A multiplicação vale {} '.format(n1 * n2), end='> ')
+print('A divisão vale {:.3f} '.format(n1 / n2), end='> ')
+print('\nA divisão inteira vale {} '.format(n1 // n2), end='> ')
+print('O resto da divisão vale {} '.format(n1 % n2), end='> ')
+print('A potência vale {}'.format(n1 ** n2))
